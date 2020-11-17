@@ -1,0 +1,8 @@
+{
+  "driverPath": "C:\\Program Files (x86)\\ChromeDriver\\chromedriver.exe",
+  "shopAddress": "https://192.168.0.101/admin777qxjega/index.php",
+  "productsPath": "D:\\PG\\ETI\\sem 5\\BE\\projekt\\etap 1\\scrapped_data.xlsx",
+  "adminEmail": "admin@fotopog.com",
+  "adminPassword": "slonko10",
+  "importCategory": "Produkty"
+}
