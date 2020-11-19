@@ -23,4 +23,5 @@ class Executor:
         self.pages.imp.next_step()
         self.pages.imp.accept_alert()
         self.pages.imp.wait_step_2()
+        self.pages.imp.import_settings()
         self.pages.imp.confirm_load()

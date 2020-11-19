@@ -35,5 +35,8 @@ class ImportPage(MainPage):
     def wait_step_2(self, timeout: int = 120) -> None:
         Waiter.clickable(self.driver, ImportPageLocators.LOAD, timeout=timeout)
 
+    def import_settings(self) -> None:
+        Actions.click(self.driver, Waiter.clickable(self.driver, ImportPageLocators.IMPORT))
+
     def confirm_load(self) -> None:
         Actions.click(self.driver, Waiter.clickable(self.driver, ImportPageLocators.LOAD))
