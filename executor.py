@@ -9,6 +9,8 @@ class Executor:
         self.pages: PageSet = pages
 
     def login(self, email: str, password: str) -> None:
+        self.pages.https.wait_loaded()
+        self.pages.https.skip()
         self.pages.login.enter_email(email)
         self.pages.login.enter_password(password)
         self.pages.login.submit()
